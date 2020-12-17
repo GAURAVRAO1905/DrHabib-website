@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -592,6 +592,7 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
+  margin-top: 50px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -611,166 +612,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 20px 0;
-  background-color: #ecf8f9;
-  min-height: 40px;
-  margin-top: 120px;
-}
 
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 70px;
-  }
-}
-
-.breadcrumbs h2 {
-  font-size: 24px;
-  font-weight: 300;
-  margin: 0;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs h2 {
-    margin: 0 0 10px 0;
-  }
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #6c757d;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
-
-/*--------------------------------------------------------------
-# Featured projects
---------------------------------------------------------------*/
-.featured-projects .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
-  border-radius: 8px;
-  z-index: 1;
-}
-
-.featured-projects .icon-box::before {
-  content: '';
-  position: absolute;
-  background: #d9f1f2;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 100%;
-  transition: all 0.3s;
-  z-index: -1;
-}
-
-.featured-projects .icon-box:hover::before {
-  background: #3fbbc0;
-  top: 0;
-  border-radius: 0px;
-}
-
-.featured-projects .icon {
-  margin-bottom: 15px;
-}
-
-.featured-projects .icon i {
-  font-size: 48px;
-  line-height: 1;
-  color: #3fbbc0;
-  transition: all 0.3s ease-in-out;
-}
-
-.featured-projects .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.featured-projects .title a {
-  color: #111;
-}
-
-.featured-projects .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
-}
-
-.featured-projects .icon-box:hover .title a, .featured-projects .icon-box:hover .description {
-  color: #fff;
-}
-
-.featured-projects .icon-box:hover .icon i {
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Cta
---------------------------------------------------------------*/
-.cta {
-  background: #3fbbc0;
-  color: #fff;
-  background-size: cover;
-  padding: 60px 0;
-}
-
-.cta h3 {
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.cta .cta-btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 35px;
-  border-radius: 25px;
-  transition: 0.5s;
-  margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-.cta .cta-btn:hover {
-  background: #fff;
-  color: #3fbbc0;
-}
 
 /*--------------------------------------------------------------
 # About Us
@@ -782,7 +624,7 @@ section {
 
 .about .content ul {
   list-style: none;
-  padding: 0;
+  padding: 10;
 }
 
 .about .content ul li {
