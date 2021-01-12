@@ -135,15 +135,6 @@ header.masthead .bg-circle-4 {
   border-color: #65c9cd !important;
 }
 
-.btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
-}
-
-.btn-secondary {
-  background-color: #ff6a00;
-  border-color: #ff6a00;
-}
-
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
   background-color: #cc5500 !important;
   border-color: #cc5500 !important;
